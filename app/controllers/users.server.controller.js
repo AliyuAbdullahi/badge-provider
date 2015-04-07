@@ -97,6 +97,7 @@ exports.delete = function(req, res, next) {
     }
   });
 };
+
 function addAmateurBadge(){
  
 
