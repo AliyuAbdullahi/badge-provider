@@ -8,5 +8,4 @@ var UserSchema = new Schema({
 
 });
 
-var Badge = mongoose.model('User', UserSchema);
-console.log(Badge);
+mongoose.model('User', UserSchema);
