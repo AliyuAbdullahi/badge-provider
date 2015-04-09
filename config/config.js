@@ -3,7 +3,7 @@ module.exports = (function () {
     return {
         db: {
             development: {
-                uri: 'mongodb://localhost/taskcuratr',
+                uri: 'mongodb://localhost/badge-provider',
                 options: {
                     user: '',
                     pass: ''
