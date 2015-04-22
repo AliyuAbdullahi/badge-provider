@@ -17,6 +17,6 @@ module.exports = function() {
   app.use(bodyParser.json());
   app.use(methodOverride());
   require('../app/features/routes/index.server.routes.js')(app);
-  require('../app/features/routes/users.server.routes.js')(app);
+  require('../app/features/routes/badge.server.routes.js')(app);
  return app;
  };

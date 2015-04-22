@@ -3,7 +3,7 @@ module.exports = (function () {
     return {
         db: {
             development: {
-                uri: 'mongodb://localhost/taskcuratr',
+                uri: 'mongodb://localhost/badge-provider',
                 options: {
                     user: '',
                     pass: ''
@@ -17,9 +17,6 @@ module.exports = (function () {
                     pass: ''
                 }
             },
-
-           
-
             production: {
                 uri: 'mongodb://badge-provider:allahumasedika12@ds045757.mongolab.com:45757/badge-provider',
                 options: {
@@ -28,8 +25,6 @@ module.exports = (function () {
                 }
             }
         },
-
-        secret: '@I651nyI#',
         port: process.env.PORT || 5555
     };
 })();
