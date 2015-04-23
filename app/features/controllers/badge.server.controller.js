@@ -6,8 +6,10 @@ exports.create = function(req, res, next) {
       return next(err);
     } else {
       res.json({
+        User:"Erned one badge",
         Success:"Badge "+"\\"+user.badge_title +"\\"+" Created Successfully",
-        Badge_data:[user]
+        Badge_data:[user],
+        Owner: req.body.username
   
       });
     }
